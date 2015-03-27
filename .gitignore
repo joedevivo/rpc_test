@@ -2,3 +2,6 @@ _rel
 deps
 ebin
 relx
+.concrete
+.rebar
+.eunit
