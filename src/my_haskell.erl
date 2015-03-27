@@ -1,0 +1,2 @@
+-module(my_haskell).
+-compile({parse_transform, gen_haskell_parse_transform}).

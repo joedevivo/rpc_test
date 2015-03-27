@@ -1,0 +1,2 @@
+-module(my_java).
+-compile({parse_transform, gen_java_parse_transform}).

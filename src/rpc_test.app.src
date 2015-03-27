@@ -1,0 +1,16 @@
+%% -*- mode: erlang -*-
+{application, rpc_test,
+ [
+  {description, "the rpc_test project"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  gen_java,
+                  gen_haskell
+                 ]},
+  {mod, { rpc_test_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
